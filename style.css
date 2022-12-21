@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    background-image: url('Clock.jpg');
+    height: 30vw;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hands {
+    position: absolute;
+    width: 0.4vw;
+    background-color: black;
+    left: 14.54vw;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+
+.second {
+    height: 8.8vw;
+    top: 5.6vw;
+    width: 0.2vw;
+    opacity: 0.4;
+}
+
+.minute {
+    height: 8.1vw;
+    top: 6.4vw;
+    width: 0.3vw;
+    opacity: 0.6;
+}
+
+.hour {
+    height: 6.6vw;
+    top: 7.8vw;
+    opacity: 1;
+}
